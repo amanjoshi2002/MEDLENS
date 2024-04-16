@@ -1,0 +1,6 @@
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({'candidates': [{'content': {'parts': [{'text': '**Atiol (ferrous sulfate)**\n\n* Nausea, vomiting, constipation, diarrhea\n* Abdominal pain\n* Discoloration of teeth and stools\n* Iron overload (with chronic high doses)\n\n**Calcium Citrate**\n\n* Constipation\n* Bloating\n* Gas\n* Headache\n* Muscle cramps (with high doses)\n\n**Nocobalamin (vitamin B12)**\n\n* Diarrhea\n* Nausea\n* Itching\n* Flushing\n\n**L-Met (levodopa)**\n\n* Nausea, vomiting\n* Involuntary movements (dyskinesias)\n* Hallucinations, delusions\n* Low blood pressure\n* Confusion\n\n**Folate (folic acid)**\n\n* Skin reactions (rash, itching)\n* Gastrointestinal upset (nausea, vomiting, diarrhea)\n\n**Zinc**\n\n* Nausea, vomiting\n* Diarrhea\n* Headache\n* Muscle cramps\n\n**Magnesium**\n\n* Diarrhea\n* Nausea\n* Headache\n* Tiredness'}], 'role': 'model'}, 'finish_reason': 1, 'index': 0, 'safety_ratings': [{'category': 9, 'probability': 1, 'blocked': False}, {'category': 8, 'probability': 1, 'blocked': False}, {'category': 7, 'probability': 1, 'blocked': False}, {'category': 10, 'probability': 2, 'blocked': False}], 'token_count': 0, 'grounding_attributions': []}]}),
+)
