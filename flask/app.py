@@ -10,7 +10,7 @@ from text import extract_text_from_response
 app = Flask(__name__)
 CORS(app)
 
-os.environ['YOUR_API_KEY'] = "AIzaSyCCgV_4zM-zQQfui-vs8QNZ8LKyVVD5k4Y"
+os.environ['YOUR_API_KEY'] = "KEYYY"
 
 # Configure Gemini AI
 genai.configure(api_key=os.environ['YOUR_API_KEY'])
