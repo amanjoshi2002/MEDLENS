@@ -5,8 +5,8 @@ def extract_text_from_response(file_path):
             response_data = file.read().strip()
 
             # Find the start and end index of the text
-            start_index = response_data.find('\'text\'')
-            end_index = response_data.find('\'role\'')
+            start_index = response_data.find('"text": "') + len('"text": "')
+            end_index = response_data.find('"', start_index)
 
             # Extract the text between the start and end index
             text = response_data[start_index:end_index].strip()
